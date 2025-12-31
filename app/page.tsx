@@ -30,42 +30,84 @@ export default function HomePage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative py-20 lg:py-32 overflow-hidden">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center lg:text-left">
-          <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
-            <div className="mb-12 lg:mb-0">
-              <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
-                A safe space for <span className="text-teal-600">healing</span>.
-              </h1>
-              <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                Stronger Individuals. Healthier Families. Lasting Change. Start your journey today with evidence based
-              </p>
-              <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-                <a href="https://your-booking-site.com" className="inline-flex justify-center items-center bg-teal-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-teal-700 transition shadow-lg">
-                  Book Appointment <Calendar className="ml-2 w-5 h-5" />
-                </a>
-              </div>
-            </div>
-            <div className="aspect-square rounded-3xl overflow-hidden shadow-xl mx-auto w-full max-w-md lg:max-w-none">
-  <img 
-    src="/propic.jpg"
-    alt="Rosalyn James Professional Headshot" 
-    className="w-full h-full object-cover"
-  />
-</div>
-{/* This container must be w-full to center the text properly */}
-<div className="mt-6 w-full text-center">
-  <p className="text-slate-900 font-semibold tracking-wide text-lg">
-    Rosalyn James LPC-Associate
-  </p>
-  <p className="text-slate-500 text-sm italic mt-1">
-    Supervised by: Colana Sanders LPC-S
-  </p>
-</div>
-          </div>
-        </div>
-      </section>
 
+
+          {/* LEFT SIDE: About Section */}
+      <section className="max-w-7xl mx-auto px-4 py-16">
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-1 items-start">
+    
+    {/* LEFT COLUMN: Photo & Credentials (1/2 of the width) */}
+   <div className="md:col-span-2">
+    <h2 className="mb-12 lg:mb-0">
+              <h2 className="text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
+                A safe space for <span className="text-teal-600">healing</span>.
+              </h2>
+             
+            </h2>
+               <div className="prose prose-blue text-gray-600 text-lg space-y-4">
+        <p>
+          Welcome. Taking the first step toward therapy can be daunting, but you don't 
+          have to navigate your journey alone. My approach is centered on creating 
+          a safe, non-judgmental space where we can explore the challenges you're facing.
+        </p>
+        <p>
+          Whether you are dealing with anxiety, depression, or life transitions, 
+          I utilize evidence-based practices to help you develop the tools needed 
+          for lasting change.
+        </p>
+      <p className="text-3xl md:text-4xl font-bold text-gray-900">
+    Healthier <span className="text-teal-600">individuals</span>.
+  </p>
+  <p className="text-3xl md:text-4xl font-bold text-gray-900">
+    Stronger <span className="text-teal-600">families</span>.
+  </p>
+  <p className="text-3xl md:text-4xl font-bold text-gray-900">
+    Lasting <span className="text-teal-600">change</span>.
+  </p>
+      
+   
+        <button className="mt-6 bg-teal-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+          Schedule a Consultation
+        </button>
+      </div>
+    </div>
+
+
+
+    {/* RIGHT COLUMN: Biography/Introduction (1/2 of the width) */}
+        <div className="flex flex-col items-center md:items-start text-center md:text-left">
+      <div className="relative w-150 h-150 mb-6">
+        <img 
+          src="/propic.jpg" 
+          alt="Rosalyn James Professional Headshot" 
+          className="rounded-lg shadow-xl object-cover w-full h-full border-4 border-white"
+        />
+      </div>
+
+      <div className="bg-teal-50 p-6 rounded-xl w-full">
+        <h3 className="text-slate-900 font-bold uppercase tracking-widest text-sm mb-4">
+          Rosalyn James LPC-Associate
+        </h3>
+        <ul className="text-gray-700 text-sm space-y-2">
+          <li className="flex items-start gap-2">
+            <span className="text-blue-600">✓</span> Supervised by Colana Sanders LPC-S
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-blue-600">✓</span> M.Ed. Marriage and Family Therapy
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-blue-600">✓</span> EMDR Trained
+          </li>
+          {/* Add more credentials here */}
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+</section>
       {/* Services Section */}
       <section id="services" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

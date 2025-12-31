@@ -16,3 +16,146 @@ Parsing ecmascript source code failed
 Expected '</', got 'jsx text (
 )'
 [00:23:48.890] Server  LOG     ✓ Compiled in 10ms
+[00:24:57.742] Server  LOG     ✓ Compiled in 5ms
+[00:25:06.860] Server  LOG     ✓ Compiled in 4ms
+[00:32:24.144] Browser ERROR   ./app/page.tsx:69:17
+Parsing ecmascript source code failed
+  67 |           </div>
+  68 |         </div>
+> 69 |       </section>
+     |                 ^
+> 70 |
+     | ^
+> 71 |       {/* Services Section */}
+     | ^^^^^^^
+  72 |       <section id="services" className="py-20 bg-white">
+  73 |         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+  74 |           <div className="text-center mb-16">
+
+Expected '</', got 'jsx text (
+
+      )'
+[00:33:39.721] Server  LOG     ✓ Compiled in 8ms
+[00:41:12.653] Browser ERROR   ./app/page.tsx:75:17
+Parsing ecmascript source code failed
+  73 |           </div>
+  74 |         </div>
+> 75 |       </section>
+     |                 ^
+> 76 |
+     | ^
+> 77 |       {/* Services Section */}
+     | ^^^^^^^
+  78 |       <section id="services" className="py-20 bg-white">
+  79 |         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+  80 |           <div className="text-center mb-16">
+
+Expected '</', got 'jsx text (
+
+      )'
+[00:45:33.941] Server  LOG     ✓ Compiled in 5ms
+[00:45:52.703] Server  LOG     ✓ Compiled in 4ms
+[00:51:42.813] Browser ERROR   ./app/page.tsx:35:11
+Parsing ecmascript source code failed
+  33 |           {/* LEFT SIDE: About Section */}
+  34 |       <section 
+> 35 |           <div className="grid md:grid-cols-2 gap-16 items-center">
+     |           ^
+  36 |             <div className="mb-12 lg:mb-0">
+  37 |               <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
+  38 |                 A safe space for <span className="text-teal-600">healing</span>.
+
+Expression expected
+[00:59:52.807] Server  LOG     ✓ Compiled in 4ms
+[01:00:23.359] Server  LOG     ✓ Compiled in 5ms
+[01:01:56.932] Server  LOG     ✓ Compiled in 5ms
+[01:02:23.330] Server  LOG     ✓ Compiled in 5ms
+[01:07:06.403] Server  LOG     ✓ Compiled in 5ms
+[01:12:03.316] Server  LOG     ✓ Compiled in 5ms
+[01:12:17.112] Server  LOG     ✓ Compiled in 2ms
+[01:12:53.421] Server  LOG     ✓ Compiled in 5ms
+[01:13:06.685] Server  LOG     ✓ Compiled in 5ms
+[01:13:17.373] Server  LOG     ✓ Compiled in 35ms
+[01:13:23.141] Server  LOG     ✓ Compiled in 6ms
+[01:14:04.835] Server  LOG     ✓ Compiled in 3ms
+[01:14:12.994] Server  LOG     ✓ Compiled in 2ms
+[01:14:21.486] Server  LOG     ✓ Compiled in 5ms
+[01:14:35.791] Server  LOG     ✓ Compiled in 5ms
+[01:15:02.963] Server  LOG     ✓ Compiled in 3ms
+[01:15:09.003] Server  LOG     ✓ Compiled in 6ms
+[01:16:31.805] Server  LOG     ✓ Compiled in 6ms
+[01:17:27.762] Server  LOG     ✓ Compiled in 6ms
+[01:18:05.014] Server  LOG     ✓ Compiled in 4ms
+[01:18:13.310] Server  LOG     ✓ Compiled in 4ms
+[01:23:04.217] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <h2> h2  
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={Promise}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:Promise, ...}} segmentPath={[...]} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <HomePage>
+                        <div className="min-h-scre...">
+                          <nav>
+                          <section className="max-w-7xl ...">
+                            <div className="grid grid-...">
+                              <div className="md:col-span-2">
+>                               <h2 className="mb-12 lg:mb-0">
+>                                 <h2 className="text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
+                                  ...
+                                ...
+                              ...
+                          ...
+                    ...
+                  ...
+      ...
+
+[01:23:16.117] Server  LOG     ✓ Compiled in 2ms
+[01:27:13.016] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <h2> h2  
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                    <SegmentViewNode type="page" pagePath="page.tsx">
+                      <SegmentTrieNode>
+                      <HomePage>
+                        <div className="min-h-scre...">
+                          <nav>
+                          <section className="max-w-7xl ...">
+                            <div className="grid grid-...">
+                              <div className="md:col-span-2">
+>                               <h2 className="mb-12 lg:mb-0">
+>                                 <h2 className="text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
+                                  ...
+                                ...
+                              ...
+                          ...
+                    ...
+                  ...
+      ...
+
+[01:27:13.016] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
