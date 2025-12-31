@@ -34,10 +34,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="flex items-center gap-4 text-slate-700">
-              <div className="bg-teal-100 p-3 rounded-full text-teal-700">
-                <MapPin size={20} />
-              </div>
+        
               <div>
               </div>
             </div>
@@ -63,6 +60,6 @@ export default function ContactPage() {
           </form>
         </div>
       </div>
-    </div>
+  
   );
 }

@@ -20,7 +20,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
           <div className="space-x-8 text-sm font-medium text-slate-600 uppercase tracking-widest flex items-center">
             <Link href="/" className="hover:text-teal-600 transition">Home</Link>
-            <Link href="/about" className="hover:text-teal-600 transition">About</Link>
+            <a href="#/about" className="hover:text-teal-600 transition">About</a>
+            <a href="#services" className="hover:text-teal-600 transition-colors">Services</a>
+            <a href="#faq" className="hover:text-teal-600 transition-colors">FAQ</a>
             <Link href="/contact" className="bg-teal-800 text-white px-5 py-2 hover:bg-teal-700 transition">Contact</Link>
           </div>
         </nav>

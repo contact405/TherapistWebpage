@@ -21,25 +21,10 @@ export default function HomePage() {
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans scroll-smooth">
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        
           <div className="flex justify-between h-16 items-center">
             <div className="flex items-center gap-2">
-              <Heart className="text-teal-600 w-6 h-6" />
-              <span className="font-bold text-xl tracking-tight text-slate-800">Healthier Mentality, PLLC</span>
-            </div>
-            <div className="hidden md:flex space-x-8 text-sm font-medium text-slate-600">
-              <a href="#services" className="hover:text-teal-600 transition">Services</a>
-              <a href="#faq" className="hover:text-teal-600 transition">FAQ</a>
-              <a href="#contact" className="hover:text-teal-600 transition">Contact</a>
-            </div>
-            <a 
-              href="https://your-booking-site.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="bg-teal-600 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-teal-700 transition shadow-sm"
-            >
-              Book Now
-            </a>
+            
           </div>
         </div>
       </nav>
@@ -63,8 +48,8 @@ export default function HomePage() {
             </div>
             <div className="aspect-square rounded-3xl overflow-hidden shadow-xl mx-auto w-full max-w-md lg:max-w-none">
   <img 
-    src="/Headshot-2.jpg" 
-    alt="Professional Headshot" 
+    src="/propic.jpg"
+    alt="Rosalyn James Professional Headshot" 
     className="w-full h-full object-cover"
   />
 </div>
