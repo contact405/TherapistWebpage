@@ -44,7 +44,7 @@ function RootLayout({ children }) {
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-teal-900 text-teal-50 py-2 px-6 text-center text-xs font-medium tracking-widest uppercase",
+                        className: "bg-slate-900 text-teal-50 py-2 px-6 text-center text-xs font-medium tracking-widest uppercase",
                         children: "Now accepting new clients for virtual and in-person sessions"
                     }, void 0, false, {
                         fileName: "[project]/app/layout.tsx",
@@ -170,10 +170,19 @@ function RootLayout({ children }) {
                                                                 children: "Email:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/layout.tsx",
-                                                                lineNumber: 43,
-                                                                columnNumber: 12
+                                                                lineNumber: 44,
+                                                                columnNumber: 3
                                                             }, this),
-                                                            " contact@healthiermentality.com"
+                                                            ' ',
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                href: "mailto:contact@healthiermentality.com",
+                                                                className: "text-teal-300 hover:text-white underline transition-colors",
+                                                                children: "contact@healthiermentality.com"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/layout.tsx",
+                                                                lineNumber: 45,
+                                                                columnNumber: 3
+                                                            }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/layout.tsx",
@@ -187,14 +196,23 @@ function RootLayout({ children }) {
                                                                 children: "Phone:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/layout.tsx",
-                                                                lineNumber: 44,
-                                                                columnNumber: 12
+                                                                lineNumber: 54,
+                                                                columnNumber: 3
                                                             }, this),
-                                                            " (832)582-0948"
+                                                            ' ',
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                href: "tel:+8325820948",
+                                                                className: "text-teal-300 hover:text-white underline transition-colors",
+                                                                children: "(832) 582-0948"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/layout.tsx",
+                                                                lineNumber: 55,
+                                                                columnNumber: 3
+                                                            }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/layout.tsx",
-                                                        lineNumber: 44,
+                                                        lineNumber: 52,
                                                         columnNumber: 9
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -204,14 +222,14 @@ function RootLayout({ children }) {
                                                                 children: "Location:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/layout.tsx",
-                                                                lineNumber: 45,
+                                                                lineNumber: 59,
                                                                 columnNumber: 12
                                                             }, this),
                                                             " Texas"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/layout.tsx",
-                                                        lineNumber: 45,
+                                                        lineNumber: 59,
                                                         columnNumber: 9
                                                     }, this)
                                                 ]
@@ -234,7 +252,7 @@ function RootLayout({ children }) {
                                                 children: "Consumer Information & Legal Notice"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/layout.tsx",
-                                                lineNumber: 51,
+                                                lineNumber: 65,
                                                 columnNumber: 7
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -246,14 +264,14 @@ function RootLayout({ children }) {
                                                         children: "House Bill 4224"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/layout.tsx",
-                                                        lineNumber: 55,
+                                                        lineNumber: 69,
                                                         columnNumber: 28
                                                     }, this),
                                                     " (Section 181.105, Health and Safety Code), consumers may follow the instructions below:"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/layout.tsx",
-                                                lineNumber: 54,
+                                                lineNumber: 68,
                                                 columnNumber: 7
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -266,7 +284,7 @@ function RootLayout({ children }) {
                                                                 children: "1. Request Health Records:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/layout.tsx",
-                                                                lineNumber: 60,
+                                                                lineNumber: 74,
                                                                 columnNumber: 11
                                                             }, this),
                                                             " To request your health care records from the licensee, please email",
@@ -276,13 +294,13 @@ function RootLayout({ children }) {
                                                                 children: "contact@healthiermentality.com"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/layout.tsx",
-                                                                lineNumber: 61,
+                                                                lineNumber: 75,
                                                                 columnNumber: 11
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/layout.tsx",
-                                                        lineNumber: 59,
+                                                        lineNumber: 73,
                                                         columnNumber: 9
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -292,7 +310,7 @@ function RootLayout({ children }) {
                                                                 children: "2. Contact the Council:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/layout.tsx",
-                                                                lineNumber: 66,
+                                                                lineNumber: 80,
                                                                 columnNumber: 11
                                                             }, this),
                                                             " Reach the Texas Behavioral Health Executive Council via their",
@@ -304,14 +322,14 @@ function RootLayout({ children }) {
                                                                 children: "Official Contact Page"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/layout.tsx",
-                                                                lineNumber: 67,
+                                                                lineNumber: 81,
                                                                 columnNumber: 11
                                                             }, this),
                                                             "."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/layout.tsx",
-                                                        lineNumber: 65,
+                                                        lineNumber: 79,
                                                         columnNumber: 9
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -321,7 +339,7 @@ function RootLayout({ children }) {
                                                                 children: "3. File a Complaint:"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/layout.tsx",
-                                                                lineNumber: 72,
+                                                                lineNumber: 86,
                                                                 columnNumber: 11
                                                             }, this),
                                                             " File a consumer complaint with the",
@@ -333,26 +351,26 @@ function RootLayout({ children }) {
                                                                 children: "Office of the Attorney General"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/layout.tsx",
-                                                                lineNumber: 73,
+                                                                lineNumber: 87,
                                                                 columnNumber: 11
                                                             }, this),
                                                             "."
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/layout.tsx",
-                                                        lineNumber: 71,
+                                                        lineNumber: 85,
                                                         columnNumber: 9
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/layout.tsx",
-                                                lineNumber: 58,
+                                                lineNumber: 72,
                                                 columnNumber: 7
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/layout.tsx",
-                                        lineNumber: 50,
+                                        lineNumber: 64,
                                         columnNumber: 5
                                     }, this)
                                 ]
@@ -373,7 +391,7 @@ function RootLayout({ children }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/layout.tsx",
-                                        lineNumber: 83,
+                                        lineNumber: 97,
                                         columnNumber: 5
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -381,13 +399,13 @@ function RootLayout({ children }) {
                                         children: "HIPAA Compliant Care. Records managed via secure BAA-compliant software."
                                     }, void 0, false, {
                                         fileName: "[project]/app/layout.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 100,
                                         columnNumber: 5
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/layout.tsx",
-                                lineNumber: 82,
+                                lineNumber: 96,
                                 columnNumber: 3
                             }, this)
                         ]

@@ -10,7 +10,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="flex flex-col min-h-screen" style={{ fontFamily: '"Inter", sans-serif' }}>
         
         {/* TOP BANNER */}
-        <div className="bg-teal-900 text-teal-50 py-2 px-6 text-center text-xs font-medium tracking-widest uppercase">
+        <div className="bg-slate-900 text-teal-50 py-2 px-6 text-center text-xs font-medium tracking-widest uppercase">
           Now accepting new clients for virtual and in-person sessions
         </div>
 
@@ -40,8 +40,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <div className="mb-8 md:mb-0 md:w-1/3">
       <h3 className="text-lg font-bold mb-4">Healthier Mentality</h3>
       <div className="text-sm text-teal-300 space-y-2">
-        <p><strong className="text-white">Email:</strong> contact@healthiermentality.com</p>
-        <p><strong className="text-white">Phone:</strong> (832)582-0948</p>
+        <p>
+  <strong className="text-white">Email:</strong>{' '}
+  <a 
+    href="mailto:contact@healthiermentality.com" 
+    className="text-teal-300 hover:text-white underline transition-colors"
+  >
+    contact@healthiermentality.com
+  </a>
+</p>
+        <p>
+          
+  <strong className="text-white">Phone:</strong>{' '}
+  <a href="tel:+8325820948" className="text-teal-300 hover:text-white underline transition-colors">
+    (832) 582-0948
+  </a>
+</p>
         <p><strong className="text-white">Location:</strong> Texas</p>
       </div>
     </div>

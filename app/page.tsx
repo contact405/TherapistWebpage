@@ -38,12 +38,12 @@ export default function HomePage() {
     
     {/* LEFT COLUMN: Photo & Credentials (1/2 of the width) */}
    <div className="md:col-span-2">
-    <h2 className="mb-12 lg:mb-0">
+    <div className="mb-12 lg:mb-0">
               <h2 className="text-4xl md:text-6xl font-extrabold text-slate-900 leading-tight mb-6">
                 A safe space for <span className="text-teal-600">healing</span>.
               </h2>
              
-            </h2>
+            </div>
                <div className="prose prose-blue text-gray-600 text-lg space-y-4">
         <p>
           Welcome. Taking the first step toward therapy can be daunting, but you don't 
@@ -84,7 +84,7 @@ export default function HomePage() {
         />
       </div>
 
-      <div className="bg-teal-50 p-6 rounded-xl w-full">
+      <div className="bg-slate-200 p-6 rounded-xl w-full">
         <h3 className="text-slate-900 font-bold uppercase tracking-widest text-sm mb-4">
           Rosalyn James LPC-Associate
         </h3>
@@ -158,10 +158,23 @@ export default function HomePage() {
                 <h2 className="text-3xl font-bold mb-6 text-teal-400">Contact</h2>
                 <div className="space-y-6">
                   <div className="flex items-center gap-4">
-                    <Phone className="w-6 h-6 text-teal-400" /> <span>(832)582-0948</span>
+            <p>
+  <strong className="text-white">Phone:</strong>{' '}
+  <a href="tel:+8325820948" className="text-teal-300 hover:text-white underline transition-colors">
+    (832) 582-0948
+  </a>
+</p>
                   </div>
                   <div className="flex items-center gap-4">
-                    <Mail className="w-6 h-6 text-teal-400" /> <span>contact@healthiermentality.com</span>
+                    <a 
+              href="mailto:contact@healthiermentality.com" 
+              className="flex items-center gap-3 group"
+>
+  <Mail className="w-5 h-5 text-white-600 group-hover:text-teal-500 transition-colors" />
+  <span className="text-teal-300 group-hover:underline">
+    contact@healthiermentality.com
+  </span>
+</a>
                   </div>
                 </div>
               </div>
