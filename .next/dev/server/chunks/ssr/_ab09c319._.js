@@ -144,67 +144,257 @@ function RootLayout({ children }) {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-                        className: "mt-auto",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "bg-slate-900 text-slate-300 py-8 px-6",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm",
+                        className: "bg-slate-900 text-white border-t border-white-800 pt-12 pb-8",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "max-w-7xl mx-auto px-4 md:flex md:justify-between md:gap-8",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "© 2025 SerenePath Therapy. All rights reserved."
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/layout.tsx",
-                                        lineNumber: 39,
-                                        columnNumber: 15
-                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex gap-6",
+                                        className: "mb-8 md:mb-0 md:w-1/3",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "flex items-center gap-2",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "text-lg font-bold mb-4",
+                                                children: "Healthier Mentality"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/layout.tsx",
+                                                lineNumber: 41,
+                                                columnNumber: 7
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "text-sm text-teal-300 space-y-2",
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        className: "w-2 h-2 bg-teal-500 rounded-full animate-pulse"
-                                                    }, void 0, false, {
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                                className: "text-white",
+                                                                children: "Email:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/layout.tsx",
+                                                                lineNumber: 43,
+                                                                columnNumber: 12
+                                                            }, this),
+                                                            " contact@healthiermentality.com"
+                                                        ]
+                                                    }, void 0, true, {
                                                         fileName: "[project]/app/layout.tsx",
-                                                        lineNumber: 42,
-                                                        columnNumber: 19
+                                                        lineNumber: 43,
+                                                        columnNumber: 9
                                                     }, this),
-                                                    "HIPAA Compliant & Secure"
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                                className: "text-white",
+                                                                children: "Phone:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/layout.tsx",
+                                                                lineNumber: 44,
+                                                                columnNumber: 12
+                                                            }, this),
+                                                            " (832)582-0948"
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/layout.tsx",
+                                                        lineNumber: 44,
+                                                        columnNumber: 9
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                                className: "text-white",
+                                                                children: "Location:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/layout.tsx",
+                                                                lineNumber: 45,
+                                                                columnNumber: 12
+                                                            }, this),
+                                                            " Texas"
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/layout.tsx",
+                                                        lineNumber: 45,
+                                                        columnNumber: 9
+                                                    }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/layout.tsx",
-                                                lineNumber: 41,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: "Crisis Line: 988"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/layout.tsx",
-                                                lineNumber: 45,
-                                                columnNumber: 17
+                                                lineNumber: 42,
+                                                columnNumber: 7
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/layout.tsx",
                                         lineNumber: 40,
-                                        columnNumber: 15
+                                        columnNumber: 5
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "md:w-2/3 border-t md:border-t-0 md:border-l border-white-700 pt-8 md:pt-0 md:pl-8",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                className: "text-sm font-bold mb-4 uppercase tracking-wider text-white",
+                                                children: "Consumer Information & Legal Notice"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/layout.tsx",
+                                                lineNumber: 51,
+                                                columnNumber: 7
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-sm text-blue-100 mb-4",
+                                                children: [
+                                                    "In accordance with ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                        className: "text-white",
+                                                        children: "House Bill 4224"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/layout.tsx",
+                                                        lineNumber: 55,
+                                                        columnNumber: 28
+                                                    }, this),
+                                                    " (Section 181.105, Health and Safety Code), consumers may follow the instructions below:"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/layout.tsx",
+                                                lineNumber: 54,
+                                                columnNumber: 7
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                                className: "text-sm text-white-100 space-y-3",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                                className: "text-white",
+                                                                children: "1. Request Health Records:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/layout.tsx",
+                                                                lineNumber: 60,
+                                                                columnNumber: 11
+                                                            }, this),
+                                                            " To request your health care records from the licensee, please email",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                href: "mailto:contact@healthiermentality.com",
+                                                                className: "text-teal-300 hover:text-white underline ml-1 transition-colors",
+                                                                children: "contact@healthiermentality.com"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/layout.tsx",
+                                                                lineNumber: 61,
+                                                                columnNumber: 11
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/layout.tsx",
+                                                        lineNumber: 59,
+                                                        columnNumber: 9
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                                className: "text-white",
+                                                                children: "2. Contact the Council:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/layout.tsx",
+                                                                lineNumber: 66,
+                                                                columnNumber: 11
+                                                            }, this),
+                                                            " Reach the Texas Behavioral Health Executive Council via their",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                href: "https://www.bhec.texas.gov/contact-us/index.html",
+                                                                target: "_blank",
+                                                                rel: "noopener noreferrer",
+                                                                className: "text-teal-300 hover:text-white underline ml-1 transition-colors",
+                                                                children: "Official Contact Page"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/layout.tsx",
+                                                                lineNumber: 67,
+                                                                columnNumber: 11
+                                                            }, this),
+                                                            "."
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/layout.tsx",
+                                                        lineNumber: 65,
+                                                        columnNumber: 9
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                                className: "text-white",
+                                                                children: "3. File a Complaint:"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/layout.tsx",
+                                                                lineNumber: 72,
+                                                                columnNumber: 11
+                                                            }, this),
+                                                            " File a consumer complaint with the",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                href: "https://www.texasattorneygeneral.gov/consumer-protection",
+                                                                target: "_blank",
+                                                                rel: "noopener noreferrer",
+                                                                className: "text-teal-300 hover:text-white underline ml-1 transition-colors",
+                                                                children: "Office of the Attorney General"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/layout.tsx",
+                                                                lineNumber: 73,
+                                                                columnNumber: 11
+                                                            }, this),
+                                                            "."
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/app/layout.tsx",
+                                                        lineNumber: 71,
+                                                        columnNumber: 9
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/layout.tsx",
+                                                lineNumber: 58,
+                                                columnNumber: 7
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/layout.tsx",
+                                        lineNumber: 50,
+                                        columnNumber: 5
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/layout.tsx",
-                                lineNumber: 38,
-                                columnNumber: 13
+                                lineNumber: 37,
+                                columnNumber: 3
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-white-800",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-xs text-center text-white-300",
+                                        children: [
+                                            "© ",
+                                            new Date().getFullYear(),
+                                            " Healthier Mentality. All rights reserved."
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/layout.tsx",
+                                        lineNumber: 83,
+                                        columnNumber: 5
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-xs text-center text-white-300",
+                                        children: "HIPAA Compliant Care. Records managed via secure BAA-compliant software."
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/layout.tsx",
+                                        lineNumber: 86,
+                                        columnNumber: 5
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/layout.tsx",
+                                lineNumber: 82,
+                                columnNumber: 3
                             }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/app/layout.tsx",
-                            lineNumber: 37,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/app/layout.tsx",
                         lineNumber: 36,
-                        columnNumber: 9
+                        columnNumber: 1
                     }, this)
                 ]
             }, void 0, true, {

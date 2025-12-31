@@ -139,13 +139,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-slate-900 text-slate-500 py-12 text-center text-xs border-t border-slate-800">
-        <p className="mb-2">© 2025 Healthier Mentality, PLLC. All rights reserved.</p>
-        <p className="max-w-md mx-auto opacity-75">
-          HIPAA Compliant Care. Records managed via secure BAA-compliant software.
-        </p>
-      </footer>
+  
     </div>
   );
 }

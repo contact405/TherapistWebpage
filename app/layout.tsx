@@ -33,20 +33,62 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </main>
 
         {/* FOOTER BANNER */}
-        <footer className="mt-auto">
-          <div className="bg-slate-900 text-slate-300 py-8 px-6">
-            <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-              <p>© 2025 SerenePath Therapy. All rights reserved.</p>
-              <div className="flex gap-6">
-                <span className="flex items-center gap-2">
-                  <span className="w-2 h-2 bg-teal-500 rounded-full animate-pulse"></span> 
-                  HIPAA Compliant & Secure
-                </span>
-                <span>Crisis Line: 988</span>
-              </div>
-            </div>
-          </div>
-        </footer>
+<footer className="bg-slate-900 text-white border-t border-white-800 pt-12 pb-8">
+  <div className="max-w-7xl mx-auto px-4 md:flex md:justify-between md:gap-8">
+    
+    {/* LEFT SIDE: Your Professional Contact Info */}
+    <div className="mb-8 md:mb-0 md:w-1/3">
+      <h3 className="text-lg font-bold mb-4">Healthier Mentality</h3>
+      <div className="text-sm text-teal-300 space-y-2">
+        <p><strong className="text-white">Email:</strong> contact@healthiermentality.com</p>
+        <p><strong className="text-white">Phone:</strong> (832)582-0948</p>
+        <p><strong className="text-white">Location:</strong> Texas</p>
+      </div>
+    </div>
+
+    {/* RIGHT SIDE: Mandatory Legal Disclosures (HB 4224) */}
+    <div className="md:w-2/3 border-t md:border-t-0 md:border-l border-white-700 pt-8 md:pt-0 md:pl-8">
+      <h3 className="text-sm font-bold mb-4 uppercase tracking-wider text-white">
+        Consumer Information & Legal Notice
+      </h3>
+      <p className="text-sm text-blue-100 mb-4">
+        In accordance with <strong className="text-white">House Bill 4224</strong> (Section 181.105, Health and Safety Code), consumers may follow the instructions below:
+      </p>
+
+      <ul className="text-sm text-white-100 space-y-3">
+        <li>
+          <strong className="text-white">1. Request Health Records:</strong> To request your health care records from the licensee, please email 
+          <a href="mailto:contact@healthiermentality.com" className="text-teal-300 hover:text-white underline ml-1 transition-colors">
+            contact@healthiermentality.com
+          </a>
+        </li>
+        <li>
+          <strong className="text-white">2. Contact the Council:</strong> Reach the Texas Behavioral Health Executive Council via their 
+          <a href="https://www.bhec.texas.gov/contact-us/index.html" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:text-white underline ml-1 transition-colors">
+            Official Contact Page
+          </a>.
+        </li>
+        <li>
+          <strong className="text-white">3. File a Complaint:</strong> File a consumer complaint with the 
+          <a href="https://www.texasattorneygeneral.gov/consumer-protection" target="_blank" rel="noopener noreferrer" className="text-teal-300 hover:text-white underline ml-1 transition-colors">
+            Office of the Attorney General
+          </a>.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  {/* BOTTOM: Copyright */}
+  <div className="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-white-800">
+    <p className="text-xs text-center text-white-300">
+      © {new Date().getFullYear()} Healthier Mentality. All rights reserved.
+    </p>
+    <p className="text-xs text-center text-white-300">
+     HIPAA Compliant Care. Records managed via secure BAA-compliant software.
+    </p>
+    
+  </div>
+</footer>
 
       </body>
     </html>

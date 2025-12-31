@@ -519,31 +519,6 @@ function HomePage() {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 111,
                 columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-                className: "bg-slate-900 text-slate-500 py-12 text-center text-xs border-t border-slate-800",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "mb-2",
-                        children: "© 2025 Healthier Mentality, PLLC. All rights reserved."
-                    }, void 0, false, {
-                        fileName: "[project]/app/page.tsx",
-                        lineNumber: 144,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "max-w-md mx-auto opacity-75",
-                        children: "HIPAA Compliant Care. Records managed via secure BAA-compliant software."
-                    }, void 0, false, {
-                        fileName: "[project]/app/page.tsx",
-                        lineNumber: 145,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/app/page.tsx",
-                lineNumber: 143,
-                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
@@ -562,7 +537,7 @@ function ServiceCard({ icon, title, description }) {
                 children: icon
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 157,
+                lineNumber: 151,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -570,7 +545,7 @@ function ServiceCard({ icon, title, description }) {
                 children: title
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 158,
+                lineNumber: 152,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -578,13 +553,13 @@ function ServiceCard({ icon, title, description }) {
                 children: description
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 159,
+                lineNumber: 153,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.tsx",
-        lineNumber: 156,
+        lineNumber: 150,
         columnNumber: 5
     }, this);
 }
@@ -599,7 +574,7 @@ function FAQItem({ question, answer }) {
                         className: "w-4 h-4 text-teal-600"
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
-                        lineNumber: 168,
+                        lineNumber: 162,
                         columnNumber: 9
                     }, this),
                     " ",
@@ -607,7 +582,7 @@ function FAQItem({ question, answer }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 167,
+                lineNumber: 161,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -615,13 +590,13 @@ function FAQItem({ question, answer }) {
                 children: answer
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
-                lineNumber: 170,
+                lineNumber: 164,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/page.tsx",
-        lineNumber: 166,
+        lineNumber: 160,
         columnNumber: 5
     }, this);
 }
