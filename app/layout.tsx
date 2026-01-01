@@ -1,36 +1,79 @@
+'use client';
+import { useState } from 'react';
 import Link from 'next/link';
+import { Menu, X, Lock } from 'lucide-react';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <html lang="en">
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet" />
         <script src="https://cdn.tailwindcss.com"></script>
       </head>
-      <body className="flex flex-col min-h-screen" style={{ fontFamily: '"Inter", sans-serif' }}>
+      <body className="flex flex-col min-h-screen bg-white" style={{ fontFamily: '"Inter", sans-serif' }}>
         
         {/* TOP BANNER */}
-        <div className="bg-slate-900 text-teal-50 py-2 px-6 text-center text-xs font-medium tracking-widest uppercase">
+        <div className="bg-slate-900 text-teal-50 py-2 px-6 text-center text-[10px] md:text-xs font-medium tracking-widest uppercase">
           Now accepting new clients for virtual and in-person sessions
         </div>
 
-        <nav className="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center w-full">
-          <div className="text-2xl font-bold tracking-tighter text-teal-900" style={{ fontFamily: '"Playfair Display", serif' }}>
-            Healthier Mentality, PLLC<span className="text-teal-600">.</span>
+        {/* NAVIGATION BAR */}
+        <nav className="border-b border-gray-100 bg-white sticky top-0 z-50">
+          <div className="max-w-7xl mx-auto px-6 md:px-8 py-4 md:py-6 flex justify-between items-center">
+            
+            {/* LOGO */}
+            <div className="text-xl md:text-2xl font-bold tracking-tighter text-teal-900" style={{ fontFamily: '"Playfair Display", serif' }}>
+              Healthier Mentality, PLLC<span className="text-teal-600">.</span>
+            </div>
+
+            {/* DESKTOP MENU (Hidden on Mobile) */}
+            <div className="hidden lg:flex items-center space-x-8 text-[11px] font-medium text-slate-600 uppercase tracking-widest">
+              <Link href="/" className="hover:text-teal-600 transition">Home</Link>
+              <Link href="/about" className="hover:text-teal-600 transition">About</Link>
+              <a href="#services" className="hover:text-teal-600 transition">Services</a>
+              
+              <a href="https://www.healthiermentality.com/sign-in" target="_blank" rel="noopener noreferrer" className="flex items-center hover:text-teal-600 transition">
+                <Lock className="w-3 h-3 mr-1" /> Portal
+              </a>
+
+              <a href="mailto:contact@healthiermentality.com" className="bg-slate-900 text-white px-6 py-2 rounded-md hover:bg-slate-800 transition shadow-sm">
+                Contact Me
+              </a>
+            </div>
+
+            {/* MOBILE MENU BUTTON (Only shows on phones) */}
+            <div className="lg:hidden">
+              <button onClick={() => setIsOpen(!isOpen)} className="text-slate-900 p-2">
+                {isOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
+              </button>
+            </div>
           </div>
-          <div className="space-x-8 text-sm font-medium text-slate-600 uppercase tracking-widest flex items-center">
-            <Link href="/" className="hover:text-teal-600 transition">Home</Link>
-            <a href="#/about" className="hover:text-teal-600 transition">About</a>
-            <a href="#services" className="hover:text-teal-600 transition-colors">Services</a>
-            <a href="#faq" className="hover:text-teal-600 transition-colors">FAQ</a>
-            <Link href="/contact" className="bg-teal-800 text-white px-5 py-2 hover:bg-teal-700 transition">Contact</Link>
-          </div>
+
+          {/* MOBILE DROPDOWN MENU */}
+          {isOpen && (
+            <div className="lg:hidden bg-white border-t border-gray-50 px-6 py-8 space-y-6 shadow-xl absolute w-full left-0 animate-in fade-in slide-in-from-top-4">
+              <Link href="/" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-600 uppercase tracking-widest">Home</Link>
+              <Link href="/about" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-600 uppercase tracking-widest">About</Link>
+              <a href="#services" onClick={() => setIsOpen(false)} className="block text-sm font-medium text-slate-600 uppercase tracking-widest">Services</a>
+              
+              <a href="https://www.healthiermentality.com/sign-in" target="_blank" className="flex items-center text-sm font-medium text-teal-600 uppercase tracking-widest">
+                <Lock className="w-4 h-4 mr-2" /> Client Portal
+              </a>
+
+              <a href="mailto:contact@healthiermentality.com" className="block w-full bg-slate-900 text-white text-center py-4 rounded-lg font-bold">
+                Contact Me
+              </a>
+            </div>
+          )}
         </nav>
 
-        {/* MAIN CONTENT */}
+        {/* MAIN PAGE CONTENT */}
         <main className="flex-grow">
           {children}
         </main>
+
 
         {/* FOOTER BANNER */}
 <footer className="bg-slate-900 text-white border-t border-white-800 pt-12 pb-8">
